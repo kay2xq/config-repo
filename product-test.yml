@@ -1,6 +1,6 @@
 spring:
   application:
-    name: order
+    name: product
   datasource:
     url: jdbc:mysql://localhost/springcloudsell?characterEncoding=utf-8&useSSL=false
     username: root
