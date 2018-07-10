@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order
+  datasource:
+    url: jdbc:mysql://localhost/springcloudsell?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+      show-sql: true
+  rabbitmq:
+      host: 192.168.1.113
+      port: 5672
+      username: kay
+      password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+env:
+    test
+#product:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
